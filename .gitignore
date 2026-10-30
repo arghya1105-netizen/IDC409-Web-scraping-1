@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter / editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local databases and generated intermediates
+*.db
+*.sqlite
+*.sqlite3
+final_dataset.csv
+nvda_headlines.csv
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
